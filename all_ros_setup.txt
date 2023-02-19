@@ -28,7 +28,7 @@ sudo apt install neofetch (definetly 100000000million%neccessary)
 sudo apt install vim
 sudo apt install neovim
 sudo apt install build-essential
-
+sudo apt install tmux
 
 sudo apt-get update
 
