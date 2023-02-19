@@ -36,17 +36,21 @@ sudo apt-get install htop
 
 sudo apt install -y gdb-source
 
-sudo aptc install cmake
+sudo apt install cmake
 
 sudo apt update
 
 sudo apt install python3-serial
 
+
+(at this point go to sotware, check all the boxes, make sure you are on 'main' server not Canada.)
+
+
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
 sudo apt install curl
 
-curl-s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add –
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add –
 
 sudo apt-get update
 
